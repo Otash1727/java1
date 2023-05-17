@@ -61,4 +61,11 @@ input{
 input:active{
     background-color: cornflowerblue;
     cursor: alias;
+    opacity: 30%;
+}
+.max_width{
+    max-width:500px;
+    max-height:500px;
+    transition-delay: 1;
+    translate: 400px 400px;
 }
