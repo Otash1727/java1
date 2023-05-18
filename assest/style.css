@@ -1,71 +1,94 @@
-*{
+* {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
 }
-.background{
-    background-color:grey;
+
+.background {
+    background-color: grey;
 }
-.btn_button{
+
+.btn_button {
     border-radius: 5px;
-    box-shadow:0 9px white;
+    box-shadow: 0 9px white;
     text-align: center;
     outline: none;
-    background-color:green;
+    background-color: green;
     font-size: 15px;
     border: none;
     transition: all 0.5s;
-    padding:15px 25px;
-    cursor:pointer;
-    
+    padding: 15px 25px;
+    cursor: pointer;
+
 
 }
-button:hover{
+
+button:hover {
     background-color: aquamarine;
 }
-button:active{
+
+button:active {
     background-color: chocolate;
     box-shadow: 0 5px chocolate;
-    transform:translateY(4px);
-    cursor:auto;
+    transform: translateY(4px);
+    cursor: auto;
 }
 
 
-.justify-content{
-    justify-content:space-around;
+.justify-content {
+    justify-content: space-around;
     display: flex;
 }
-.btn-clikc{
-    background-color:white;
-    display:block;
+
+.btn-clikc {
+    background-color: rgba(255, 255, 255, 0.255);
+    backdrop-filter: blur(4px);
+
+    display: flex;
 }
-.btn-clikc2{
+
+.btn-clikc2 {
     display: none;
-    background-color:white;
+    background-color: white;
 }
-.class1{
+
+.class1 {
     width: auto;
     height: auto;
     padding: 50px;
     border-radius: 50px;
 
 }
-.font-size{
+
+.font-size {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:20px;
+    font-size: 20px;
 }
-input{
+
+input {
     height: 50px;
     border-radius: 10px;
 }
-input:active{
+
+input:active {
     background-color: cornflowerblue;
     cursor: alias;
     opacity: 30%;
 }
-.max_width{
-    max-width:500px;
-    max-height:500px;
-    transition-delay: 1;
-    translate: 400px 400px;
+
+.max_width {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+.modal-container {
+    position: absolute;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
 }
